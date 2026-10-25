@@ -10,6 +10,7 @@
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.538",
+    "@remotion/google-fonts": "^4.0.538",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.538"
@@ -25,6 +26,8 @@
   "scripts": {
     "dev": "remotion studio",
     "build": "remotion bundle",
+    "render": "remotion render MinuteMysteriesShort out/minute-mysteries-roadster.mp4",
+    "render:fast": "remotion render MinuteMysteriesShort out/preview-5s.mp4 --frames=0-300",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
   },
