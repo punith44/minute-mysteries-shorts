@@ -8,6 +8,10 @@
 import { Config } from "@remotion/cli/config";
 
 Config.setRspack(true);
-Config.setVideoImageFormat("jpeg");
+// Use lossless PNG frames instead of JPEG to eliminate chroma subsampling blur on #E8402A red text & halftone dots
+Config.setVideoImageFormat("png");
+Config.setCodec("h264");
+Config.setCrf(16);
+Config.setPixelFormat("yuv420p");
 Config.setOverwriteOutput(true);
 Config.setDefaultPremountInSeconds(2);

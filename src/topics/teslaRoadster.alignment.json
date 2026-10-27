@@ -1,0 +1,634 @@
+{
+  "scene1": {
+    "spokenDurationSec": 5.21,
+    "recommendedSceneDurationSec": 6,
+    "words": [
+      {
+        "text": "Can",
+        "at": 0.12,
+        "end": 0.395,
+        "accent": false
+      },
+      {
+        "text": "Tesla's",
+        "at": 0.395,
+        "end": 0.807,
+        "accent": false
+      },
+      {
+        "text": "Roadster",
+        "at": 0.807,
+        "end": 1.246,
+        "accent": true
+      },
+      {
+        "text": "really",
+        "at": 1.246,
+        "end": 1.576,
+        "accent": false
+      },
+      {
+        "text": "drive",
+        "at": 1.576,
+        "end": 1.905,
+        "accent": false
+      },
+      {
+        "text": "*upside*",
+        "at": 1.905,
+        "end": 2.317,
+        "accent": true,
+        "zoomKick": 1.06
+      },
+      {
+        "text": "*down?*",
+        "at": 2.317,
+        "end": 2.729,
+        "accent": true
+      },
+      {
+        "text": "A",
+        "at": 2.969,
+        "end": 3.156,
+        "accent": false
+      },
+      {
+        "text": "viral",
+        "at": 3.156,
+        "end": 3.503,
+        "accent": true
+      },
+      {
+        "text": "demo",
+        "at": 3.503,
+        "end": 3.849,
+        "accent": false
+      },
+      {
+        "text": "claimed",
+        "at": 3.849,
+        "end": 4.196,
+        "accent": false
+      },
+      {
+        "text": "to",
+        "at": 4.196,
+        "end": 4.409,
+        "accent": false
+      },
+      {
+        "text": "*defy*",
+        "at": 4.409,
+        "end": 4.782,
+        "accent": true,
+        "zoomKick": 1.055
+      },
+      {
+        "text": "*gravity!*",
+        "at": 4.782,
+        "end": 5.209,
+        "accent": true
+      }
+    ]
+  },
+  "scene2": {
+    "spokenDurationSec": 5.85,
+    "recommendedSceneDurationSec": 6.3,
+    "words": [
+      {
+        "text": "Here's",
+        "at": 0.12,
+        "end": 0.501,
+        "accent": false
+      },
+      {
+        "text": "the",
+        "at": 0.501,
+        "end": 0.778,
+        "accent": false
+      },
+      {
+        "text": "*problem:*",
+        "at": 0.778,
+        "end": 1.297,
+        "accent": true
+      },
+      {
+        "text": "it",
+        "at": 1.297,
+        "end": 1.574,
+        "accent": false
+      },
+      {
+        "text": "weighs",
+        "at": 1.574,
+        "end": 1.989,
+        "accent": false
+      },
+      {
+        "text": "*3,800*",
+        "at": 1.989,
+        "end": 2.751,
+        "accent": true,
+        "zoomKick": 1.065
+      },
+      {
+        "text": "*pounds!*",
+        "at": 2.751,
+        "end": 3.27,
+        "accent": true
+      },
+      {
+        "text": "Gravity",
+        "at": 3.51,
+        "end": 3.939,
+        "accent": true
+      },
+      {
+        "text": "pulls",
+        "at": 3.939,
+        "end": 4.253,
+        "accent": false
+      },
+      {
+        "text": "it",
+        "at": 4.253,
+        "end": 4.481,
+        "accent": false
+      },
+      {
+        "text": "straight",
+        "at": 4.481,
+        "end": 4.824,
+        "accent": false
+      },
+      {
+        "text": "down",
+        "at": 4.824,
+        "end": 5.166,
+        "accent": false
+      },
+      {
+        "text": "at",
+        "at": 5.166,
+        "end": 5.395,
+        "accent": false
+      },
+      {
+        "text": "*1.0 G.*",
+        "at": 5.395,
+        "end": 5.851,
+        "accent": true,
+        "zoomKick": 1.055
+      }
+    ]
+  },
+  "scene3": {
+    "spokenDurationSec": 5.18,
+    "recommendedSceneDurationSec": 6.5,
+    "words": [
+      {
+        "text": "Normal",
+        "at": 0.12,
+        "end": 0.44,
+        "accent": false
+      },
+      {
+        "text": "race",
+        "at": 0.44,
+        "end": 0.711,
+        "accent": false
+      },
+      {
+        "text": "wings",
+        "at": 0.711,
+        "end": 1.007,
+        "accent": false
+      },
+      {
+        "text": "need",
+        "at": 1.007,
+        "end": 1.253,
+        "accent": false
+      },
+      {
+        "text": "*high*",
+        "at": 1.253,
+        "end": 1.549,
+        "accent": true
+      },
+      {
+        "text": "*speed.*",
+        "at": 1.549,
+        "end": 1.894,
+        "accent": true,
+        "zoomKick": 1.05
+      },
+      {
+        "text": "So",
+        "at": 2.134,
+        "end": 2.353,
+        "accent": false
+      },
+      {
+        "text": "Tesla",
+        "at": 2.353,
+        "end": 2.709,
+        "accent": false
+      },
+      {
+        "text": "*sealed*",
+        "at": 2.709,
+        "end": 3.066,
+        "accent": true
+      },
+      {
+        "text": "the",
+        "at": 3.066,
+        "end": 3.285,
+        "accent": false
+      },
+      {
+        "text": "underbody",
+        "at": 3.285,
+        "end": 3.779,
+        "accent": false
+      },
+      {
+        "text": "into",
+        "at": 3.779,
+        "end": 4.053,
+        "accent": false
+      },
+      {
+        "text": "a",
+        "at": 4.053,
+        "end": 4.245,
+        "accent": false
+      },
+      {
+        "text": "*giant*",
+        "at": 4.245,
+        "end": 4.628,
+        "accent": true,
+        "zoomKick": 1.06
+      },
+      {
+        "text": "*suction cup!*",
+        "at": 4.628,
+        "end": 5.177,
+        "accent": true
+      }
+    ]
+  },
+  "scene4": {
+    "spokenDurationSec": 6.31,
+    "recommendedSceneDurationSec": 6.8,
+    "words": [
+      {
+        "text": "Twin",
+        "at": 0.12,
+        "end": 0.483,
+        "accent": false
+      },
+      {
+        "text": "turbine",
+        "at": 0.483,
+        "end": 0.946,
+        "accent": false
+      },
+      {
+        "text": "fans",
+        "at": 0.946,
+        "end": 1.343,
+        "accent": false
+      },
+      {
+        "text": "spin",
+        "at": 1.343,
+        "end": 1.706,
+        "accent": false
+      },
+      {
+        "text": "at",
+        "at": 1.706,
+        "end": 1.97,
+        "accent": false
+      },
+      {
+        "text": "*25,000*",
+        "at": 1.97,
+        "end": 2.763,
+        "accent": true,
+        "zoomKick": 1.06
+      },
+      {
+        "text": "*RPM,*",
+        "at": 2.763,
+        "end": 3.358,
+        "accent": true
+      },
+      {
+        "text": "pulling",
+        "at": 3.598,
+        "end": 4.014,
+        "accent": false
+      },
+      {
+        "text": "*7,600*",
+        "at": 4.014,
+        "end": 4.78,
+        "accent": true,
+        "zoomKick": 1.065
+      },
+      {
+        "text": "*pounds*",
+        "at": 4.78,
+        "end": 5.228,
+        "accent": true
+      },
+      {
+        "text": "of",
+        "at": 5.228,
+        "end": 5.483,
+        "accent": false
+      },
+      {
+        "text": "pure",
+        "at": 5.483,
+        "end": 5.835,
+        "accent": false
+      },
+      {
+        "text": "*suction!*",
+        "at": 5.835,
+        "end": 6.314,
+        "accent": true
+      }
+    ]
+  },
+  "scene5": {
+    "spokenDurationSec": 5.51,
+    "recommendedSceneDurationSec": 6,
+    "words": [
+      {
+        "text": "And",
+        "at": 0.12,
+        "end": 0.401,
+        "accent": false
+      },
+      {
+        "text": "to",
+        "at": 0.401,
+        "end": 0.619,
+        "accent": false
+      },
+      {
+        "text": "*flip*",
+        "at": 0.619,
+        "end": 0.994,
+        "accent": true
+      },
+      {
+        "text": "*mid-air,*",
+        "at": 0.994,
+        "end": 1.462,
+        "accent": true,
+        "zoomKick": 1.055
+      },
+      {
+        "text": "SpaceX",
+        "at": 1.462,
+        "end": 1.93,
+        "accent": true
+      },
+      {
+        "text": "thrusters",
+        "at": 1.93,
+        "end": 2.397,
+        "accent": false
+      },
+      {
+        "text": "fire",
+        "at": 2.397,
+        "end": 2.772,
+        "accent": false
+      },
+      {
+        "text": "compressed",
+        "at": 3.012,
+        "end": 3.525,
+        "accent": false
+      },
+      {
+        "text": "nitrogen",
+        "at": 3.525,
+        "end": 4.038,
+        "accent": true
+      },
+      {
+        "text": "at",
+        "at": 4.038,
+        "end": 4.294,
+        "accent": false
+      },
+      {
+        "text": "*10,000*",
+        "at": 4.294,
+        "end": 4.935,
+        "accent": true,
+        "zoomKick": 1.065
+      },
+      {
+        "text": "*PSI!*",
+        "at": 4.935,
+        "end": 5.512,
+        "accent": true
+      }
+    ]
+  },
+  "scene6": {
+    "spokenDurationSec": 6,
+    "recommendedSceneDurationSec": 6.5,
+    "words": [
+      {
+        "text": "Can",
+        "at": 0.12,
+        "end": 0.386,
+        "accent": false
+      },
+      {
+        "text": "you",
+        "at": 0.386,
+        "end": 0.652,
+        "accent": false
+      },
+      {
+        "text": "drive",
+        "at": 0.652,
+        "end": 1.006,
+        "accent": false
+      },
+      {
+        "text": "this",
+        "at": 1.006,
+        "end": 1.301,
+        "accent": false
+      },
+      {
+        "text": "on",
+        "at": 1.301,
+        "end": 1.538,
+        "accent": false
+      },
+      {
+        "text": "*public*",
+        "at": 1.538,
+        "end": 1.922,
+        "accent": true
+      },
+      {
+        "text": "*streets?*",
+        "at": 1.922,
+        "end": 2.335,
+        "accent": true
+      },
+      {
+        "text": "*Definitely*",
+        "at": 2.335,
+        "end": 2.837,
+        "accent": true,
+        "zoomKick": 1.065
+      },
+      {
+        "text": "*not!*",
+        "at": 2.837,
+        "end": 3.192,
+        "accent": true
+      },
+      {
+        "text": "One",
+        "at": 3.432,
+        "end": 3.715,
+        "accent": false
+      },
+      {
+        "text": "*pothole*",
+        "at": 3.715,
+        "end": 4.139,
+        "accent": true,
+        "zoomKick": 1.055
+      },
+      {
+        "text": "shatters",
+        "at": 4.139,
+        "end": 4.563,
+        "accent": false
+      },
+      {
+        "text": "the",
+        "at": 4.563,
+        "end": 4.789,
+        "accent": false
+      },
+      {
+        "text": "vacuum",
+        "at": 4.789,
+        "end": 5.185,
+        "accent": false
+      },
+      {
+        "text": "seal",
+        "at": 5.185,
+        "end": 5.524,
+        "accent": false
+      },
+      {
+        "text": "*instantly.*",
+        "at": 5.524,
+        "end": 6.005,
+        "accent": true
+      }
+    ]
+  },
+  "scene7": {
+    "spokenDurationSec": 6.08,
+    "recommendedSceneDurationSec": 6.5,
+    "words": [
+      {
+        "text": "It's",
+        "at": 0.12,
+        "end": 0.486,
+        "accent": false
+      },
+      {
+        "text": "not",
+        "at": 0.486,
+        "end": 0.852,
+        "accent": false
+      },
+      {
+        "text": "*magic.*",
+        "at": 0.852,
+        "end": 1.401,
+        "accent": true
+      },
+      {
+        "text": "It's",
+        "at": 1.401,
+        "end": 1.767,
+        "accent": false
+      },
+      {
+        "text": "*brute-force*",
+        "at": 1.767,
+        "end": 2.425,
+        "accent": true,
+        "zoomKick": 1.06
+      },
+      {
+        "text": "*aerospace!*",
+        "at": 2.425,
+        "end": 3.084,
+        "accent": true
+      },
+      {
+        "text": "*Subscribe*",
+        "at": 3.324,
+        "end": 3.904,
+        "accent": true,
+        "zoomKick": 1.055
+      },
+      {
+        "text": "for",
+        "at": 3.904,
+        "end": 4.193,
+        "accent": false
+      },
+      {
+        "text": "your",
+        "at": 4.193,
+        "end": 4.519,
+        "accent": false
+      },
+      {
+        "text": "next",
+        "at": 4.519,
+        "end": 4.918,
+        "accent": false
+      },
+      {
+        "text": "*60-second*",
+        "at": 4.918,
+        "end": 5.534,
+        "accent": true
+      },
+      {
+        "text": "*mystery!*",
+        "at": 5.534,
+        "end": 6.077,
+        "accent": true
+      }
+    ]
+  }
+}

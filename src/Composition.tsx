@@ -1,42 +1,99 @@
 import React from "react";
-import { AbsoluteFill, Composition, Sequence } from "remotion";
-import { ReferenceStyleScene, type ReferenceSceneData } from "./scenes/ReferenceStyleScene";
-import { AudioLayer } from "./components/AudioLayer";
-
-const scenes: Array<ReferenceSceneData & {duration: number}> = [
-  {number:"01", label:"the claim", counter:"CEILING TEST", title:<>Can a Roadster drive <em style={{fontFamily:"Instrument Serif",color:"#E8402A",fontWeight:400}}>upside down?</em></>, visual:"claim", pose:"pointing", duration:180},
-  {number:"02", label:"the problem", counter:"GRAVITY 1.0 G", title:<>It weighs <span style={{color:"#E8402A"}}>3,820 pounds.</span></>, visual:"weight", pose:"shocked", duration:240},
-  {number:"03", label:"the seal", counter:"SECRET 1/2", title:<>First, it needs an <em style={{fontFamily:"Instrument Serif",color:"#E8402A",fontWeight:400}}>airtight seal.</em></>, visual:"seal", pose:"gesturing", duration:240},
-  {number:"04", label:"the fans", counter:"FORCE 2.0 G", title:<>Then fans create <em style={{fontFamily:"Instrument Serif",color:"#E8402A",fontWeight:400}}>brute force.</em></>, visual:"fans", pose:"shocked", duration:270},
-  {number:"05", label:"the flip", counter:"SECRET 2/2", title:<>Thrusters control the <em style={{fontFamily:"Instrument Serif",color:"#E8402A",fontWeight:400}}>mid-air roll.</em></>, visual:"thruster", pose:"pointing", duration:270},
-  {number:"06", label:"reality check", counter:"NOT STREET SAFE", title:<>But a pothole makes it <em style={{fontFamily:"Instrument Serif",color:"#E8402A",fontWeight:400}}>dangerous.</em></>, visual:"warning", pose:"gesturing", duration:270},
-  {number:"07", label:"the verdict", counter:"CASE CLOSED", title:<>Not magic. Just <em style={{fontFamily:"Instrument Serif",color:"#E8402A",fontWeight:400}}>active suction.</em></>, visual:"verdict", pose:"pointing", duration:330},
-];
+import { Composition } from "remotion";
+import { ReelEngine, getReelDurationInFrames } from "./engine/ReelEngine";
+import { teslaRoadsterReel } from "./topics/teslaRoadster.reel";
+import { aiGrowthPlaybookReel } from "./topics/aiGrowthPlaybook.reel";
+import { whyF1DriversLoseNinePounds } from "./topics/whyF1DriversLoseNinePounds.reel";
+import { teslaRoadsterUpsideDownReel } from "./topics/teslaRoadsterUpsideDown.reel";
+import { electricBathReel } from "./topics/electricBath.reel";
+import { leaningTowerPisaReel } from "./topics/leaningTowerPisa.reel";
 
 export const MinuteMysteriesShort: React.FC = () => {
-  return (
-    <AbsoluteFill style={{ backgroundColor: "#EFEBE4" }}>
-      {scenes.map((scene, index) => (
-        <Sequence key={scene.number} from={scenes.slice(0, index).reduce((total, item) => total + item.duration, 0)} durationInFrames={scene.duration} name={`${scene.number}_${scene.label}`}>
-          <ReferenceStyleScene data={scene} />
-        </Sequence>
-      ))}
+  return <ReelEngine config={teslaRoadsterReel} />;
+};
 
-      {/* Audio Layer: Voiceover and SFX integration */}
-      <AudioLayer hasVoiceover={true} hasSfx={true} />
-    </AbsoluteFill>
-  );
+export const AIGrowthPlaybookShort: React.FC = () => {
+  return <ReelEngine config={aiGrowthPlaybookReel} enableVoiceover={false} />;
+};
+
+export const WhyF1DriversLoseNinePoundsShort: React.FC = () => {
+  return <ReelEngine config={whyF1DriversLoseNinePounds} enableVoiceover={true} />;
+};
+
+export const TeslaRoadsterUpsideDownShort: React.FC = () => {
+  return <ReelEngine config={teslaRoadsterUpsideDownReel} enableVoiceover={true} />;
+};
+
+export const ElectricBathShort: React.FC = () => {
+  return <ReelEngine config={electricBathReel} enableVoiceover={true} />;
+};
+
+export const LeaningTowerPisaShort: React.FC = () => {
+  return <ReelEngine config={leaningTowerPisaReel} enableVoiceover={true} />;
 };
 
 export const VideoComposition: React.FC = () => {
   return (
-    <Composition
-      id="MinuteMysteriesShort"
-      component={MinuteMysteriesShort}
-      durationInFrames={1800}
-      fps={30}
-      width={720}
-      height={1280}
-    />
+    <>
+      {/* Primary Explainer Short: Tesla Roadster Inversion Physics */}
+      <Composition
+        id={teslaRoadsterReel.id}
+        component={MinuteMysteriesShort}
+        durationInFrames={getReelDurationInFrames(teslaRoadsterReel)}
+        fps={teslaRoadsterReel.fps ?? 30}
+        width={teslaRoadsterReel.width ?? 1080}
+        height={teslaRoadsterReel.height ?? 1920}
+      />
+
+      {/* Second Topic Showcase: AI-Animated Reels Playbook (Adilet Reference Style) */}
+      <Composition
+        id={aiGrowthPlaybookReel.id}
+        component={AIGrowthPlaybookShort}
+        durationInFrames={getReelDurationInFrames(aiGrowthPlaybookReel)}
+        fps={aiGrowthPlaybookReel.fps ?? 30}
+        width={aiGrowthPlaybookReel.width ?? 1080}
+        height={aiGrowthPlaybookReel.height ?? 1920}
+      />
+
+      {/* F1 9-Pounds Weight Loss Explainer */}
+      <Composition
+        id={whyF1DriversLoseNinePounds.id}
+        component={WhyF1DriversLoseNinePoundsShort}
+        durationInFrames={getReelDurationInFrames(whyF1DriversLoseNinePounds)}
+        fps={whyF1DriversLoseNinePounds.fps ?? 30}
+        width={whyF1DriversLoseNinePounds.width ?? 1080}
+        height={whyF1DriversLoseNinePounds.height ?? 1920}
+      />
+
+      {/* Tesla Roadster Upside Down Explainer */}
+      <Composition
+        id={teslaRoadsterUpsideDownReel.id}
+        component={TeslaRoadsterUpsideDownShort}
+        durationInFrames={getReelDurationInFrames(teslaRoadsterUpsideDownReel)}
+        fps={teslaRoadsterUpsideDownReel.fps ?? 30}
+        width={teslaRoadsterUpsideDownReel.width ?? 1080}
+        height={teslaRoadsterUpsideDownReel.height ?? 1920}
+      />
+
+      {/* The Electric Bath That People Actually Used */}
+      <Composition
+        id={electricBathReel.id}
+        component={ElectricBathShort}
+        durationInFrames={getReelDurationInFrames(electricBathReel)}
+        fps={electricBathReel.fps ?? 30}
+        width={electricBathReel.width ?? 1080}
+        height={electricBathReel.height ?? 1920}
+      />
+
+      {/* Why Didn't the Leaning Tower of Pisa Fall Over? (Poly Lab Benchmark) */}
+      <Composition
+        id={leaningTowerPisaReel.id}
+        component={LeaningTowerPisaShort}
+        durationInFrames={getReelDurationInFrames(leaningTowerPisaReel)}
+        fps={leaningTowerPisaReel.fps ?? 30}
+        width={leaningTowerPisaReel.width ?? 1080}
+        height={leaningTowerPisaReel.height ?? 1920}
+      />
+    </>
   );
 };
